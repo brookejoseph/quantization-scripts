@@ -62,3 +62,5 @@ plt.title('Model Accuracy Comparison')
 plt.ylabel('Accuracy')
 plt.xlabel('Quantization Method')
 plt.show()
+
+
