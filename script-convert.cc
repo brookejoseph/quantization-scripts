@@ -27,14 +27,13 @@ int main(int argc, char *argv[])
 
     int scaled_value = (og_start - og_end) / (new_start - new_end);
 
-    cout << "Scaled Value: " << scaled_value << endl;
     int zero_point = (scaled_value * new_start) - og_start;
 
     int x;
     while (cin >> x)
     {
-        round(scaled_value * x + zero_point);
+        x = round(scaled_value * x + zero_point);
     }
 
-    return 0;
+    return x;
 }
