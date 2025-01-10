@@ -85,5 +85,15 @@ int main(int argc, char *argv[])
     }
     cout << endl;
 
+    void plotGraph(const vector<int> &data, const string &label)
+    {
+        vector<int> x(data.size());
+        for (size_t i = 0; i < data.size(); ++i)
+            x[i] = i;
+        plt::bar(x, data);
+        plt::title(label);
+        plt::show();
+    }
+
     return 0;
 }
