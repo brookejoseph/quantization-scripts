@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h> // for atoi
 
-int main(int argc, char *argv[]) {
-    if (argc != 5) {
+// symmetric
+
+int main(int argc, char *argv[])
+{
+    if (argc != 5)
+    {
         printf("Usage: %s <og_start> <og_end> <new_start> <new_end>\n", argv[0]);
         return 1;
     }
@@ -12,7 +16,8 @@ int main(int argc, char *argv[]) {
     int new_start = atoi(argv[3]);
     int new_end = atoi(argv[4]);
 
-    if (new_end == new_start) {
+    if (new_end == new_start)
+    {
         printf("Error: Division by zero.\n");
         return 1;
     }
@@ -23,4 +28,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
