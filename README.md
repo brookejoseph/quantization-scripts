@@ -1,12 +1,8 @@
 ### README: Quantized Value Mapping Script
 
 #### **Description**
-This script demonstrates how to scale and map a range of values using quantization principles. It takes four integer inputs: the original start and end range, and the new start and end range, then computes a scaled value based on these inputs.
+This was built in an effort to better understand how weights are changed in a Neural Network when a model is quantized to fit on a smaller chip. 
 
-#### **Features**
-- **Input Handling**: Accepts command-line arguments for flexibility.
-- **Range Mapping**: Scales and maps values from the original range to the new range.
-- **Error Handling**: Includes checks for incorrect arguments and division by zero.
 
 #### **Usage**
 1. Compile the script:
