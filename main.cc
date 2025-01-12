@@ -89,11 +89,13 @@ int main(int argc, char *argv[])
     {
         vector<int> x(data.size());
         for (size_t i = 0; i < data.size(); ++i)
+        {
             x[i] = i;
+        };
         plt::bar(x, data);
         plt::title(label);
         plt::show();
-    }
+    };
 
     return 0;
 }
