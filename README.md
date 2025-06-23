@@ -1,6 +1,6 @@
 
 #### **Description**
-This was built in an effort to better understand how weights are changed in a Neural Network when a model is quantized to fit on a smaller chip. 
+This was built in an effort to better understand how weights are changed in a Neural Network when a model is quantized to fit on a smaller chip. Making models small!
 
 
 #### **Usage**
